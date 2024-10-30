@@ -1,0 +1,831 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cbVegas\n"
+"POT-Creation-Date: 2017-03-21 23:06+0100\n"
+"PO-Revision-Date: 2017-03-21 23:17+0100\n"
+"Last-Translator: Demis Patti <demispatti@gmail.com>\n"
+"Language-Team: demispatti <demis@demispatti.ch>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-cb-vegas-admin.php:285
+msgid "Plugin Support"
+msgstr "Plugin Support"
+
+#: admin/class-cb-vegas-admin.php:286
+msgid "Rate Plugin"
+msgstr "Plugin bewerten"
+
+#: admin/class-cb-vegas-admin.php:287
+msgid "Donate"
+msgstr "Spenden"
+
+#: admin/includes/class-cb-vegas-help-tab.php:98
+msgid "HELP"
+msgstr "Hilfe"
+
+#: admin/includes/class-cb-vegas-help-tab.php:98
+msgid "cbVegas help"
+msgstr "cbVegas Hilfe"
+
+#: admin/includes/class-cb-vegas-help-tab.php:111
+msgid "Thanks for using this plugin."
+msgstr "Besten Dank für die Verwendung dieses Plugins."
+
+#: admin/includes/class-cb-vegas-help-tab.php:113
+msgid ""
+"Please note: Whenever you add a new image to a slide or add one to a newly "
+"added slide, save the slideshow. Then you can rearrange, copy, delete etc. "
+"safely. Video is not (yet) supported."
+msgstr ""
+"Beachte bitte: Jedes Mal, wenn Du einem Slide ein neues Bild zuweist, "
+"solltest Du die Änderungen speichern. Danach kannst Du nach belieben "
+"umsortieren, kopieren, löschen usw. Video wird (noch) nicht unterstützt."
+
+#: admin/includes/class-cb-vegas-help-tab.php:115
+msgid ""
+"If you set a slideshow as fallback, it is displayed on all supported post "
+"types, but the slideshows you defined on a per page / post basis override "
+"the fallback slideshow. On all other regular pages and posts the slideshow "
+"you defined as fallback will be displayed."
+msgstr ""
+"Die als Fallback deklarierte Slideshow wird auf allen unterstützten "
+"Beitragstypen angezeigt, ausser auf den Seiten, denen Du explizit eine "
+"andere Slideshow zugewiesen hast."
+
+#: admin/includes/class-cb-vegas-help-tab.php:117
+msgid ""
+"All other settings are part of the 'Vegas Background Slideshow'. For help "
+"regarding 'Vegas Background Slideshow' itself, please refer to it's <a "
+"href='http://vegas.jaysalvat.com/documentation/setup/' "
+"target='_blank'>official documentation</a>."
+msgstr ""
+"Alle weiteren Einstellungen sind Teil von \"Vegas Background Slideshow\". "
+"Hilfe dazu findest Du in der <a href='http://vegas.jaysalvat.com/"
+"documentation/setup/' target='_blank'>offiziellen Dokumentation</a>."
+
+#: admin/includes/class-cb-vegas-help-tab.php:119
+msgid ""
+"If you have any questions, comments or issues regarding this plugin, please "
+"visit the <a href='https://wordpress.org/plugins/cb-vegas/' "
+"target='_blank'>plugin homepage</a>."
+msgstr ""
+"Für Fragen, Anregungen oder Kritiken bezüglich dieses Plugins, besuche bitte "
+"die <a href='https://wordpress.org/plugins/cb-vegas/' target='_blank'>Plugin "
+"Homepage</a> im WordPress Plugin-Repositorium."
+
+#: admin/includes/class-cb-vegas-help-tab.php:121
+msgid "Enjoy playing around with the animations, transitions and timings :-)"
+msgstr ""
+"Viel Spass beim Herumspielen mit den Animationen, Übergängen und Timings :-)"
+
+#: admin/includes/class-cb-vegas-meta-box.php:110
+#: admin/menu/class-cb-vegas-settings-page.php:406
+msgid "Vegas Background Slideshow"
+msgstr "Vegas Background Slideshow"
+
+#: admin/includes/class-cb-vegas-meta-box.php:140
+msgid "Enable or disable Vegas Slideshow for this page / post."
+msgstr "Vegas Slideshow für diesen Beitrag aktivieren resp. deaktivieren."
+
+#: admin/includes/class-cb-vegas-meta-box.php:154
+#: admin/includes/class-cb-vegas-meta-box.php:215
+msgid "none selected"
+msgstr "keine ausgewählt"
+
+#: admin/includes/class-cb-vegas-meta-box.php:178
+msgid "none available"
+msgstr "keine verfügbar"
+
+#: admin/menu/class-cb-vegas-settings-page.php:427
+msgid "Slideshows"
+msgstr "Slideshows"
+
+#: admin/menu/class-cb-vegas-settings-page.php:628
+#: admin/menu/class-cb-vegas-settings-page.php:667
+#: admin/menu/class-cb-vegas-settings-page.php:706
+#: admin/menu/class-cb-vegas-settings-page.php:745
+#: admin/menu/class-cb-vegas-settings-page.php:782
+#: admin/menu/class-cb-vegas-settings-page.php:817
+#: admin/menu/class-cb-vegas-settings-page.php:853
+#: admin/menu/class-cb-vegas-settings-page.php:887
+msgid "One more try and your browser will burst into flames ;-)"
+msgstr "Versuch's nochmal und Dein Browser geht womöglich in Flammen auf ;-)"
+
+#: admin/menu/class-cb-vegas-settings-page.php:641
+msgid "Slideshow added."
+msgstr "Slideshow hinzugefügt."
+
+#: admin/menu/class-cb-vegas-settings-page.php:650
+msgid "Nope. Couldn't add a new slideshow :-("
+msgstr "Hoppla. Slideshow konnte nicht erzeugt werden."
+
+#: admin/menu/class-cb-vegas-settings-page.php:650
+#: admin/menu/class-cb-vegas-settings-page.php:689
+#: admin/menu/class-cb-vegas-settings-page.php:728
+#: admin/menu/class-cb-vegas-settings-page.php:765
+#: admin/menu/class-cb-vegas-settings-page.php:800
+#: admin/menu/class-cb-vegas-settings-page.php:836
+#: admin/menu/class-cb-vegas-settings-page.php:870
+#: admin/menu/class-cb-vegas-settings-page.php:906
+msgid "Please save your work and try again."
+msgstr "Speichere die Änderungen und versuche es erneut."
+
+#: admin/menu/class-cb-vegas-settings-page.php:678
+msgid "Slide added."
+msgstr "Slide hinzugefügt."
+
+#: admin/menu/class-cb-vegas-settings-page.php:689
+msgid "Nope. Couldn't add a slide :-("
+msgstr "Hoppla. Konnte den Slide nicht hinzufügen."
+
+#: admin/menu/class-cb-vegas-settings-page.php:718
+msgid "Slideshow duplicated."
+msgstr "Slideshow dupliziert."
+
+#: admin/menu/class-cb-vegas-settings-page.php:718
+#: admin/menu/class-cb-vegas-settings-page.php:862
+msgid "You will be redirected now."
+msgstr "Du wirst nun weiter geleitet."
+
+#: admin/menu/class-cb-vegas-settings-page.php:728
+msgid "Nope. Couldn't duplicate the slideshow :-("
+msgstr "Hoppla. Konnte die Slideshow nicht duplizieren."
+
+#: admin/menu/class-cb-vegas-settings-page.php:756
+msgid "Slide duplicated."
+msgstr "Slide dupliziert."
+
+#: admin/menu/class-cb-vegas-settings-page.php:765
+msgid "Nope. Couldn't duplicate the slide :-("
+msgstr "Hollpa. Konnte den SLide nicht duplizieren."
+
+#: admin/menu/class-cb-vegas-settings-page.php:792
+msgid "Slideshows rearranged."
+msgstr "Slideshows neu sortiert."
+
+#: admin/menu/class-cb-vegas-settings-page.php:800
+msgid "Nope. Couldn't sort the slideshows :-("
+msgstr "Hoppla. Konnte die Slideshows nicht neu anordnen."
+
+#: admin/menu/class-cb-vegas-settings-page.php:828
+msgid "Slides rearranged."
+msgstr "Slides neu angeordnet."
+
+#: admin/menu/class-cb-vegas-settings-page.php:836
+msgid "Nope. Couldn't sort the slides :-("
+msgstr "Hoppla. Konnte die Slides nicht neu sortieren."
+
+#: admin/menu/class-cb-vegas-settings-page.php:862
+msgid "Slideshow removed."
+msgstr "Slideshow entfernt."
+
+#: admin/menu/class-cb-vegas-settings-page.php:870
+msgid "Nope. Couldn't remove the slideshow :-("
+msgstr "Hoppla. Konnte die Slideshow nicht entfernen."
+
+#: admin/menu/class-cb-vegas-settings-page.php:898
+msgid "Slide removed."
+msgstr "Slide entfernt."
+
+#: admin/menu/class-cb-vegas-settings-page.php:906
+msgid "Nope. Couldn't remove the slide :-("
+msgstr "Hoppla. Konnte den Slide nicht entfernen."
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:119
+msgid "Select Media"
+msgstr "Mediendatei wählen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:120
+msgid "Set Media"
+msgstr "Medium auswählen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:121
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1289
+msgid "Add Media"
+msgstr "Mediendatei hinzufügen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:122
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1291
+msgid "Remove Media"
+msgstr "Mediendatei entfernen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:123
+msgid "Save your settings first, then duplicate the slideshow."
+msgstr "Erst die Einstellungen speichern, dann duplizieren ;-)"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:139
+msgid "Nothing changed"
+msgstr "Es blieb beim Alten"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:140
+msgid "Add Slideshow"
+msgstr "Slideshow hinzufügen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:141
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1373
+msgid "Duplicate Slideshow"
+msgstr "Slideshow duplizieren"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:142
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1352
+msgid "Remove Slideshow"
+msgstr "Slideshow entfernen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:143
+#: admin/menu/includes/class-cb-vegas-localisations.php:145
+#: admin/menu/includes/class-cb-vegas-localisations.php:148
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1039
+msgid "Add Slide"
+msgstr "Slide hinzufügen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:144
+#: admin/menu/includes/class-cb-vegas-localisations.php:147
+#: admin/menu/includes/class-cb-vegas-localisations.php:149
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:662
+msgid "Remove Slide"
+msgstr "Slide entfernen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:146
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1313
+msgid "Duplicate Slide"
+msgstr "Slide duplizieren"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:151
+msgid "Nothing changed!"
+msgstr "Keine Änderungen!"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:152
+msgid "Add a new Slideshow?"
+msgstr "Eine neue Slideshow hinzufügen?"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:153
+msgid "Duplicate this Slideshow?"
+msgstr "Diese Slideshow duplizieren?"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:154
+msgid "Remove this Slideshow?"
+msgstr "Slideshow entfernen?"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:155
+#: admin/menu/includes/class-cb-vegas-localisations.php:160
+msgid "Add a Slide"
+msgstr "Slide hinzufügen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:156
+#: admin/menu/includes/class-cb-vegas-localisations.php:161
+msgid "Remove this Slide"
+msgstr "Diesen Slide entfernen"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:157
+msgid "Add a Slide?"
+msgstr "Slide honzufügen?"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:158
+msgid "Duplicate this Slide?"
+msgstr "Diesen Slide duplizieren?"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:159
+msgid "Remove this Slide?"
+msgstr "Slide entfernen?"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:177
+msgid "ok"
+msgstr "ok"
+
+#: admin/menu/includes/class-cb-vegas-localisations.php:178
+msgid "cancel"
+msgstr "abbrechen"
+
+#: admin/menu/includes/class-cb-vegas-validation.php:526
+msgid ""
+"Your input didn't pass validation. This value must be a hexadecimal color "
+"value. It was reset. To customize it, please input a color value like '#fff' "
+"or '#0073AA'."
+msgstr ""
+"Die Eingabe konnte nicht erfolgreich validiert werden. Dieser Wert für die "
+"Farbe sollte ein hexadezimaler Farbwert à la '#fff' oder  '#0073AA' oder "
+"aber leer sein."
+
+#: admin/menu/includes/class-cb-vegas-validation.php:542
+#: admin/menu/includes/class-cb-vegas-validation.php:566
+msgid ""
+"Your input didn't pass validation. This value must be a positive integer "
+"including 0 (zero)."
+msgstr ""
+"Die Eingabe konnte nicht erfolgreich validiert werden. Dieser Wert muss ein "
+"ganzzahliger positiver Wert (inklusive  Null) sein. Um einem ungewollten "
+"Slideshow-Verhalten vor zu beugen, wurde dieser Wert mit seinem Standardwert "
+"belegt."
+
+#: admin/menu/includes/class-cb-vegas-validation.php:554
+msgid ""
+"Your input didn't pass validation. This value must be a positive integer but "
+"must not be 0 (zero). To aviod unwanted behaviour, the delay was reset to "
+"its default."
+msgstr ""
+"Die Eingabe konnte nicht erfolgreich validiert werden. Dieser Wert muss ein "
+"ganzzahliger positiver Wert (ausser Null) sein. Um einem ungewollten "
+"Slideshow-Verhalten vor zu beugen, wurde dieser Wert mit seinem Standardwert "
+"belegt."
+
+#: admin/menu/includes/class-cb-vegas-validation.php:596
+#: admin/menu/includes/class-cb-vegas-validation.php:638
+#: admin/menu/includes/settings/class-cb-vegas-options.php:423
+#: admin/menu/includes/settings/class-cb-vegas-options.php:472
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1211
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1243
+#: public/includes/class-cb-vegas-localisation.php:193
+msgid "random"
+msgstr "zufällig"
+
+#: admin/menu/includes/class-cb-vegas-validation.php:606
+#: admin/menu/includes/class-cb-vegas-validation.php:622
+#: admin/menu/includes/settings/class-cb-vegas-options.php:401
+#: admin/menu/includes/settings/class-cb-vegas-options.php:407
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1218
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1221
+#: public/includes/class-cb-vegas-localisation.php:207
+#: public/includes/class-cb-vegas-localisation.php:224
+msgid "center"
+msgstr "mittig"
+
+#: admin/menu/includes/class-cb-vegas-validation.php:609
+#: admin/menu/includes/settings/class-cb-vegas-options.php:402
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1227
+#: public/includes/class-cb-vegas-localisation.php:227
+msgid "right"
+msgstr "rechts"
+
+#: admin/menu/includes/class-cb-vegas-validation.php:612
+#: admin/menu/includes/settings/class-cb-vegas-options.php:403
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1233
+#: public/includes/class-cb-vegas-localisation.php:221
+msgid "left"
+msgstr "links"
+
+#: admin/menu/includes/class-cb-vegas-validation.php:625
+#: admin/menu/includes/settings/class-cb-vegas-options.php:408
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1224
+#: public/includes/class-cb-vegas-localisation.php:204
+msgid "top"
+msgstr "oben"
+
+#: admin/menu/includes/class-cb-vegas-validation.php:628
+#: admin/menu/includes/settings/class-cb-vegas-options.php:409
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1230
+#: public/includes/class-cb-vegas-localisation.php:210
+msgid "bottom"
+msgstr "unten"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:154
+msgid "The Media."
+msgstr "Die Mediendatei."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:166
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:168
+msgid "Slide background color."
+msgstr "Hintergrundfarbe des Slides."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:180
+msgid "Duration (ms)"
+msgstr "Dauer (ms)"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:182
+msgid "Delay beetween slides in milliseconds."
+msgstr "Verzögerung (Anzeigedauer) des Slides in Millisekunden."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:194
+msgid "Preload"
+msgstr "Preload"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:196
+msgid "Preload both images and videos at start."
+msgstr "Bilder im Voraus laden."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:208
+msgid "Preload Image"
+msgstr "Bilder im Voraus laden."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:210
+msgid "Preload images at start. \"preload\" must be \"false\"."
+msgstr "Bilder beim Start im Voraus laden. 'Preload' muss 'false' sein."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:250
+msgid "Transition"
+msgstr "Übergangseffekt"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:252
+msgid "Set the transition between slides."
+msgstr "Definiere den Übergangeffekt zum nächsten Slide."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:264
+msgid "Transition Duration (ms)"
+msgstr "Übergangsdauer (ms)."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:266
+msgid "Set the transition duration in milliseconds."
+msgstr "Definiere die Übergangsdauer in Millisekunden."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:278
+msgid "Align"
+msgstr "Ausrichtung"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:280
+msgid "Horizontal alignment of the image in the slide."
+msgstr "Horizontale Ausrichtung des Bildes."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:306
+msgid "Cover"
+msgstr "Cover"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:308
+msgid "Set the background size."
+msgstr ""
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:320
+msgid "Animation"
+msgstr "Animation"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:322
+msgid "Set the animation of the slides."
+msgstr "Definiere den Animationseffekt des Slides."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:334
+msgid "Animation Duration (ms)"
+msgstr "Animationsdauer (ms)"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:336
+msgid "Set the animation duration in milliseconds."
+msgstr "Definiere die Animationsdauer in Millisekunden."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:348
+msgid "Vertical Align"
+msgstr "Vertikale Ausrichtung"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:350
+msgid "Vertical alignment of the image in the slide."
+msgstr "Horizontale Ausrichtung des Bildes."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:362
+msgid "Show Overlay"
+msgstr "Overlay anzeigen"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:364
+msgid ""
+"Display/hide the overlay. Could be true false or the path of an overlay "
+"image pattern."
+msgstr "Overlay anzeigen / verbergen."
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:365
+#: admin/menu/includes/settings/class-cb-vegas-options.php:495
+#: public/includes/class-cb-vegas-localisation.php:182
+#: public/includes/class-cb-vegas-localisation.php:255
+msgid "none"
+msgstr "keine"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:376
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: admin/menu/includes/settings/class-cb-vegas-options.php:378
+msgid "Start the Slideshow automatically."
+msgstr "Slideshow automatisch starten."
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:643
+msgid "Sort Slides"
+msgstr "Slides sortieren"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:729
+msgid "Slideshow Name:"
+msgstr "Slideshow Name:"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:799
+msgid "Use this slideshow as a fallback slideshow:"
+msgstr "Nutze diese Slideshow als \"fallback\":"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:804
+msgid "Use this slideshow as a fallback slideshow."
+msgstr "Diese Slideshow als Fallback-Slideshow verwenden."
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:837
+msgid "Shuffle:"
+msgstr "Zufällige Reihenfolge (Shuffle):"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:842
+msgid "Shuffle."
+msgstr "Shuffle."
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:875
+msgid "Show Timer:"
+msgstr "Timer anzeigen:"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:880
+msgid "Show Timer."
+msgstr "Timer anzeigen."
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:913
+msgid "Autoplay:"
+msgstr "Autoplay:"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:918
+msgid "Autoplay."
+msgstr "Autoplay."
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:989
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1015
+msgid "Add New Slideshow"
+msgstr "Slideshow hinzufügen"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1056
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1080
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1395
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1400
+msgid "New Slideshow"
+msgstr "Neue Slideshow"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1236
+#: public/includes/class-cb-vegas-localisation.php:244
+msgid "repeat"
+msgstr "repeat"
+
+#: admin/menu/includes/settings/class-cb-vegas-settings-factory.php:1330
+msgid "Toggle Settings"
+msgstr "Einstellungen ein- / ausblenden"
+
+#: public/includes/class-cb-vegas-localisation.php:238
+msgid "yes"
+msgstr "ja"
+
+#: public/includes/class-cb-vegas-localisation.php:241
+msgid "no"
+msgstr "nein"
+
+#: public/includes/class-cb-vegas-localisation.php:266
+msgid "default"
+msgstr "Standard"
+
+#. Plugin Name of the plugin/theme
+msgid "cbVegas"
+msgstr "cbVegas"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/cb-vegas/"
+msgstr "https://wordpress.org/plugins/cb-vegas/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin enables you to use the \"Vegas Background Slideshow\" for images "
+"on regular posts and pages."
+msgstr "Die “Vegas Background Slideshow” für Seiten, Beiträge und Produkte."
+
+#. Author of the plugin/theme
+msgid "demispatti"
+msgstr "demispatti"
+
+#. Author URI of the plugin/theme
+msgid "https://demispatti.ch"
+msgstr "https://demispatti.ch"
+
+#~ msgid ""
+#~ "Please note: This software makes constant use of ajax functionalities. "
+#~ "When you add, remove, duplicate or rearrange the slides and slideshows, "
+#~ "the result will be shown instantly. Your input is being stored in a "
+#~ "temporary database entry. This means that you have to save the changes "
+#~ "manually (with the \"Save Changes\" button) to finally save your "
+#~ "settings. On the other hand, you can throw your \"temporary\" changes by "
+#~ "refreshing the page."
+#~ msgstr ""
+#~ "Worauf Du achten solltest: Diese Software baut auf diversen Ajax-"
+#~ "Funktionalitäten auf. Wenn Du nun Slides oder Slideshows erstellst, "
+#~ "duplizierst, löschst oder neu sortierts, wird Dir das Ergebins wird "
+#~ "sofort angezeigt, die Einstellungen werden jedoch vorerst nur temporär "
+#~ "gespeichert. Damit Deine Änderungen wirksam werden, musst Du sie auf "
+#~ "jeden Fall mittels des \"Änderungen speichern\"-Buttons speichern, bevor "
+#~ "Du die Seite verlässt oder neu lädst, ansonsten werden die bereits "
+#~ "ersichtlichen Änderungen nicht übernommen."
+
+#~ msgid ""
+#~ "If you set a slideshow global, it will be displayed on every regular page "
+#~ "and post and override any slideshow including those that were defined on "
+#~ "a per post / per page basis."
+#~ msgstr ""
+#~ "Wenn Du eine Slideshow als \"global\" definierst, dann wird jene "
+#~ "Slideshow auf allen regulären Posts und Pages angezeigt, ungeachtet "
+#~ "dessen, ob Du bereits eine Slideshow für eine Seite oder ein Post "
+#~ "definiert hast."
+
+#~ msgid ""
+#~ "If you set a slideshow as fallback, the behaviour is the same as if you "
+#~ "set it as global slideshow, except that slideshows that are defined on a "
+#~ "per page / post basis are not overridden at all. On all other regular "
+#~ "pages and posts the slideshow you defined as fallback will be displayed."
+#~ msgstr ""
+#~ "Wenn Du eine Slideshow als \"fallback\" definierst, dann wird diese "
+#~ "Slideshow auf allen regulären Seiten und Posts angezeigt, ausser auf den "
+#~ "Seiten und Posts, für welche Du eine Slideshow definiert und aktiviert "
+#~ "hast."
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slideshow added,</br>you need to save your changes "
+#~ "or they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slideshow hinzugefügt,</br>denke daran die "
+#~ "Änderungen zu speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't add a new slideshow :-(</br>Please save your work "
+#~ "and / or refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slide added,</br>you need to save your changes or "
+#~ "they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slide hinzugefügt,</br>denke daran die Änderungen zu "
+#~ "speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't add a slide :-(</br>Please save your work and / or "
+#~ "refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slideshow duplicated,</br>you need to save your "
+#~ "changes or they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slideshow dupliziert,</br>denke daran die Änderungen "
+#~ "zu speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't duplicate the slideshow :-(</br>Please save your work "
+#~ "and / or refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slide duplicated,</br>you need to save your changes "
+#~ "or they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slide dupliziert,</br>denke daran die Änderungen zu "
+#~ "speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't duplicate the slide :-(</br>Please save your work "
+#~ "and / or refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slideshows rearranged,</br>you need to save your "
+#~ "changes or they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slideshows neu angeordnet,</br>denke daran die "
+#~ "Änderungen zu speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't sort the slideshows :-(</br>Please save your work "
+#~ "and / or refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2></h2>Ajax Action:</br>Slides rearranged,</br>you need to save your "
+#~ "changes or they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slides neu angeordnet,</br>denke daran die "
+#~ "Änderungen zu speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't sort the slides :-(</br>Please save your work and / or "
+#~ "refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slideshow removed.</br>You are being redirected.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slideshow entfernt,</br>die Seite wird neu geladen.</"
+#~ "h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't reorder anything :-(</br>Please save your work and / "
+#~ "or refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid ""
+#~ "<h2>Ajax Action:</br>Slide removed,</br>you need to save your changes or "
+#~ "they will be lost.</h2>"
+#~ msgstr ""
+#~ "<h2>Ajax Action:</br>Slide entfernt,</br>denke daran die Änderungen zu "
+#~ "speichern.</h2>"
+
+#~ msgid ""
+#~ "<h2>Nope. Couldn't remove the slide :-(</br>Please save your work and / "
+#~ "or refresh the page,</br>and then try again.</h2>"
+#~ msgstr ""
+#~ "<h2>Uups,</br>da lief was schief.</br>Speichere bitte die Änderungen und "
+#~ "versuche es erneut.</h2>"
+
+#~ msgid "true=skaliert, false=gesamt"
+#~ msgstr "true=skaliert, false=gesamt"
+
+#~ msgid "Display this slideshow on all regular posts and pages:"
+#~ msgstr "Diese Slideshow auf allen regulären Seiten und Posts anzeigen:"
+
+#~ msgid "Display this slideshow on all regular posts and pages."
+#~ msgstr "Zeige diese Slideshow auf allen regulären Seiten und Posts an."
+
+#~ msgid "Add Slideshow?"
+#~ msgstr "Slideshow hinzufügen"
+
+#~ msgid "Duplicate Slideshow?"
+#~ msgstr "Slideshow duplizieren"
+
+#~ msgid "Remove Slideshow?"
+#~ msgstr "Slideshow entfernen"
+
+#~ msgid "Add Slide?"
+#~ msgstr "Slide hinzufügen"
+
+#~ msgid "Duplicate Slide?"
+#~ msgstr "Slide duplizieren"
+
+#~ msgid "Remove Slide?"
+#~ msgstr "Slide entfernen"
+
+#~ msgid "Slideshows:"
+#~ msgstr "Slideshows:"
+
+#~ msgid "Settings:"
+#~ msgstr "Einstellungen:"
+
+#~ msgid ""
+#~ "If you have any questions, comments or issues regarding this plugin, "
+#~ "please visit the <a href='#'>plugin homepage</a>."
+#~ msgstr ""
+#~ "Solltest Du Fragen, Kritiken oder Anregungen zu diesem Plugin haben, dann "
+#~ "kannst Du diese auf der <a href='#'>Plugin Homepage</a> kommunizieren."
+
+#~ msgid "Duration"
+#~ msgstr "Anzeigedauer"
+
+#~ msgid "Transition Duration"
+#~ msgstr "Übergangsdauer"
+
+#~ msgid "Animation Duration"
+#~ msgstr "Animationsdauer"
+
+#~ msgid "Add new Slideshow?"
+#~ msgstr "Slideshow hinzufügen?"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Cancel"
+#~ msgstr "abbrechen"
+
+#~ msgid "Add new Slide"
+#~ msgstr "Slide hinzufügen"
+
+#~ msgid "Add new Slide?"
+#~ msgstr "Slide hinzufügen?"
+
+#~ msgid "Add new Media"
+#~ msgstr "Mediendatei hinzufügen"
+
+#~ msgid "Duplicate this slide?"
+#~ msgstr "Slide duplizieren?"
+
+#~ msgid "Duplicate this slideshow?"
+#~ msgstr "Slideshow duplizieren?"

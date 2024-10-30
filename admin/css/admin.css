@@ -1,0 +1,2389 @@
+/*!
+ * Le Style.
+ *
+ * @link              https://wordpress.org/plugins/cb-vegas/
+ * @since             0.1.0
+ * @package           cb-vegas
+ * @subpackage        cb-vegas/admin/css
+ * Author:            Demis Patti <demis@demispatti.ch>
+ * Author URI:        https://demispatti.ch
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+/**************************************************************
+ * Alertify
+ *************************************************************/
+/*.alertify,
+.alertify-log {
+	font-family: sans-serif;
+}
+
+p.alertify-message {
+	font-size: 14px;
+	font-family: inherit;
+	line-height: 1.5;
+}
+
+.alertify-confirm {
+	border: 1px solid #e5e5e5;
+	background: none repeat scroll 0% 0% white;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+	transition: all 0.2s ease-in-out;
+}
+
+.alertify {
+	background: #fff;
+	border: 10px solid #e5e5e5;
+	!* browsers that don't support rgba *!
+	border: 10px solid rgba(229, 229, 229, 0.8);
+	border-radius: 8px;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	-webkit-background-clip: padding;
+	!* Safari 4? Chrome 6? *!
+	-moz-background-clip: padding;
+	!* Firefox 3.6 *!
+	background-clip: padding-box;
+	!* Firefox 4, Safari 5, Opera 10, IE 9 *!
+}
+
+.alertify-text {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.alertify-button {
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	padding: 6px 15px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+
+.alertify-button:hover,
+.alertify-button:focus {
+	outline: none;
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0.1), transparent);
+}
+
+.alertify-button:focus {
+	border-color: #5b9dd9;
+	box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+.alertify-button:active {
+	position: relative;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.alertify-button-cancel,
+.alertify-button-cancel:hover,
+.alertify-button-cancel:focus {
+	background-color: #e74c3c;
+	border: 1px solid #ca4535;
+}
+
+.alertify-button-ok,
+.alertify-button-ok:hover,
+.alertify-button-ok:focus {
+	background-color: #2ecc71;
+	border: 1px solid #2aa755;
+}
+
+.alertify-log {
+	background: #1f1f1f;
+	background: rgba(0, 0, 0, 0.9);
+	padding: 15px;
+	border-radius: 4px;
+	color: #fff;
+	text-shadow: -0.6px -0.6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.alertify-log-error {
+	background: #e74c3c;
+	background: rgba(231, 76, 60, 0.9);
+}
+
+.alertify-log-success {
+	background: #2ecc71;
+	background: rgba(46, 204, 113, 0.9);
+}*/
+/**************************************************************
+ * Fancy Select
+ *************************************************************/
+/* line 128, ../../scss/elements/_oldstyle.scss */
+div.fancy-select {
+  position: relative;
+}
+
+/* line 132, ../../scss/elements/_oldstyle.scss */
+div.fancy-select.disabled {
+  opacity: 0.5;
+}
+
+/* line 136, ../../scss/elements/_oldstyle.scss */
+div.fancy-select select:focus + div.trigger {
+  border-color: #5b9dd9;
+  box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+/* line 141, ../../scss/elements/_oldstyle.scss */
+div.fancy-select select:focus + div.trigger.open {
+  box-shadow: none;
+}
+
+/* line 145, ../../scss/elements/_oldstyle.scss */
+div.fancy-select div.trigger {
+  display: inline-block;
+  font-size: 11px;
+  box-sizing: border-box;
+  border-radius: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  width: auto;
+  min-width: 116px;
+  padding: 4px 20px 2px 4px;
+  margin: 0;
+  -webkit-transition: all 240ms ease-out;
+  -moz-transition: all 240ms ease-out;
+  -o-transition: all 240ms ease-out;
+  border: 1px solid #e7e7e7;
+  background-color: #fbfbfb;
+  -webkit-box-shadow: 0 1px 2px #e7e7e7 inset;
+  -moz-box-shadow: 0 1px 2px #e7e7e7 inset;
+  box-shadow: 0 1px 2px #e7e7e7 inset;
+  transition: all 0.2s;
+}
+
+/* line 170, ../../scss/elements/_oldstyle.scss */
+div.fancy-select div.trigger:focus {
+  background-color: white;
+  transition: all 0.2s;
+  border-color: #f1f5f6;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 179, ../../scss/elements/_oldstyle.scss */
+div.fancy-select div.trigger:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #4b5468;
+  top: 11px;
+  right: 6px;
+}
+
+/* line 191, ../../scss/elements/_oldstyle.scss */
+div.fancy-select div.trigger.open {
+  background: #f6f6f6;
+  border: 1px solid #e2e2e2;
+  box-shadow: none;
+}
+
+/* line 197, ../../scss/elements/_oldstyle.scss */
+div.fancy-select div.trigger.open:after {
+  border-top: 1px solid #e2e2e2;
+}
+
+/* line 201, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  max-height: 300px;
+  overflow: auto;
+  border-radius: 0;
+  min-width: 160px !important;
+  max-width: 164px;
+  transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  -webkit-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  -o-transition: opacity 200ms ease-out, top 200ms ease-out, visibility 200ms ease-out;
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 225, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options.open {
+  visibility: visible;
+  top: 30px;
+  opacity: 1;
+  /* have to use a non-visibility transition to prevent this iOS issue (bug?): */
+  /*http://stackoverflow.com/questions/10736478/css-animation-visibility-visible-works-on-chrome-and-safari-but-not-on-ios*/
+  transition: opacity 300ms ease-out, top 300ms ease-out;
+  -webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+  -moz-transition: opacity 300ms ease-out, top 300ms ease-out;
+  -o-transition: opacity 300ms ease-out, top 300ms ease-out;
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+/* line 241, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options.overflowing {
+  box-sizing: border-box;
+  display: inline-block;
+  top: auto;
+  bottom: 40px;
+  width: auto;
+  min-width: 160px !important;
+  transition: opacity 200ms ease-out, bottom 200ms ease-out, visibility 200ms ease-out;
+  -webkit-transition: opacity 200ms ease-out, bottom 200ms ease-out, visibility 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out, bottom 200ms ease-out, visibility 200ms ease-out;
+  -o-transition: opacity 200ms ease-out, bottom 200ms ease-out, visibility 200ms ease-out;
+}
+
+/* line 254, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options.overflowing.open {
+  top: auto;
+  bottom: 50px;
+  transition: opacity 200ms ease-out, bottom 200ms ease-out;
+  -webkit-transition: opacity 200ms ease-out, bottom 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out, bottom 200ms ease-out;
+  -o-transition: opacity 200ms ease-out, bottom 200ms ease-out;
+}
+
+/* line 263, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options li {
+  padding: 3px 0 3px 6px;
+  margin: 0;
+  background: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 150ms ease-out;
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+}
+
+/* line 275, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options li.selected {
+  background: #f6f6f6;
+}
+
+/* line 279, ../../scss/elements/_oldstyle.scss */
+div.fancy-select ul.options li.hover {
+  background: #f2f2f2;
+}
+
+/*select [id^="align_"] .fancy-select .cb-vegas-fancy-select*/
+/* line 284, ../../scss/elements/_oldstyle.scss */
+div.fancy-select div.trigger {
+  position: relative;
+  top: 6px;
+}
+
+/* line 289, ../../scss/elements/_oldstyle.scss */
+div.fancy-select {
+  position: relative;
+  bottom: 2px;
+}
+
+/* line 294, ../../scss/elements/_oldstyle.scss */
+div.fancy-select select:focus + div.trigger {
+  border: 1px solid #e7e7e7;
+  background-color: #fbfbfb;
+  box-shadow: 0 1px 2px #e7e7e7 inset;
+}
+
+/* line 300, ../../scss/elements/_oldstyle.scss */
+.setting-error-settings_updated_placeholder {
+  margin-left: 20px;
+}
+
+/* line 304, ../../scss/elements/_oldstyle.scss */
+#setting-error-settings_updated {
+  margin: 0;
+  /*padding: 0;*/
+  min-width: 480px;
+  width: 100%;
+  max-width: 860px;
+}
+
+/**************************************************************
+ * Settings Menu
+ *************************************************************/
+/* line 315, ../../scss/elements/_oldstyle.scss */
+#wpbody-content {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/**************************************************************
+ * Wrap
+ *************************************************************/
+/* line 325, ../../scss/elements/_oldstyle.scss */
+.settings_page_cb_vegas_settings_page .wrap {
+  box-sizing: border-box;
+  display: block;
+  min-width: 480px;
+  width: 100%;
+  max-width: 960px;
+  padding-left: 16px;
+  padding-right: 30px;
+}
+
+/**************************************************************
+ * Form
+ *************************************************************/
+/* line 338, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-settings-form {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 32px;
+}
+
+/**************************************************************
+ * Global Switch container
+ *************************************************************/
+/* line 348, ../../scss/elements/_oldstyle.scss */
+#settings {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  max-height: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0px solid #ddd;
+  transition: all 0.2s ease-in-out;
+  background-color: #fbfbfb;
+  /*-moz-box-shadow: 0px 2px 4px #c9c9c9;
+  -webkit-box-shadow: 0px 2px 4px #c9c9c9;
+  box-shadow: 0px 2px 4px #c9c9c9;*/
+  clear: both;
+}
+
+/* line 366, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-setting-container, .cb-vegas-slideshow-name-container {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  max-height: 100%;
+  height: 48px;
+  padding: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 381, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-slideshow-name-container {
+  min-height: 60px;
+}
+
+/* line 385, ../../scss/elements/_oldstyle.scss */
+#controls {
+  display: block;
+  height: 60px;
+}
+
+/* line 390, ../../scss/elements/_oldstyle.scss */
+#settings {
+  background-color: #f1f5f6;
+  display: block;
+  height: auto;
+}
+
+/* line 396, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-slider {
+  display: block;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+/**************************************************************
+ * Add / remove media buttons
+ *************************************************************/
+/* line 406, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-media-button-container {
+  position: relative;
+  right: 1px;
+  bottom: 1px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  float: right;
+}
+
+/* line 416, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-button {
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background-color: #fdfdfd;
+  border: 1px solid #fafafa;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25) inset;
+  transition: all 0.2s ease 0s;
+}
+
+/* line 431, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-button:hover {
+  cursor: pointer;
+}
+
+/* line 435, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-media-button {
+  display: none;
+}
+
+/* line 439, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-media-button:before {
+  position: relative;
+  top: 8px;
+}
+
+/* line 444, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-media-button:hover {
+  color: #fff;
+  background-color: #3fc380;
+}
+
+/* line 449, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-media-button:before {
+  position: relative;
+  top: 6px;
+}
+
+/* line 454, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-media-button:hover {
+  color: #fff;
+  background-color: #e9d460;
+}
+
+/* line 459, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-slide-handle {
+  margin-bottom: 2px;
+}
+
+/* line 463, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-slide-handle:before {
+  position: relative;
+  top: 6px;
+}
+
+/* line 468, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-slide-handle:hover {
+  cursor: move;
+  color: #fff;
+  background: #ececec;
+}
+
+/* line 474, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-duplicate-slide-button {
+  margin-bottom: 2px;
+}
+
+/* line 478, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-duplicate-slide-button:before {
+  position: relative;
+  top: 6px;
+}
+
+/* line 483, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-duplicate-slide-button:hover {
+  color: #fff;
+  background-color: #3fc380;
+}
+
+/* line 488, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-slide-button:before {
+  position: relative;
+  top: 6px;
+}
+
+/* line 493, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-slide-button:hover {
+  color: #fff;
+  background-color: #e9d460;
+}
+
+/**************************************************************
+ * Remove Slide Button
+ *************************************************************/
+/* line 501, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-block-five-container {
+  width: 4%;
+  float: left;
+}
+
+/*.cb-vegas-duplicate-slide-button,
+.cb-vegas-remove-slide-button {
+
+    &:before {
+        position: relative;
+        top: 6px;
+    }
+
+    &:hover {
+        background-color: #63bcd7;
+    }
+}*/
+/* line 518, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-toggle {
+  position: relative;
+  right: 0px;
+  bottom: 4px;
+  font-size: 20px;
+}
+
+/* line 525, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-toggle:before {
+  position: relative;
+  top: 6px;
+}
+
+/* line 530, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-toggle:hover {
+  color: #747474;
+  background-color: #dadfe1;
+}
+
+/* line 535, ../../scss/elements/_oldstyle.scss */
+#controls {
+  clear: both;
+}
+
+/* line 539, ../../scss/elements/_oldstyle.scss */
+#controls > div {
+  display: inline-block;
+  margin-right: 24px;
+  float: left;
+  width: auto;
+}
+
+/**************************************************************
+ * Switch
+ *************************************************************/
+/*.cb-vegas-global-switch-container > */
+/* line 550, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-container {
+  /*width: 62px;
+  height: 26px;*/
+  float: right;
+}
+
+/* line 556, ../../scss/elements/_oldstyle.scss */
+.switch:hover {
+  cursor: pointer;
+}
+
+/* line 560, ../../scss/elements/_oldstyle.scss */
+.label-for-cb-vegas-switch {
+  pointer-events: none;
+}
+
+/* line 564, ../../scss/elements/_oldstyle.scss */
+.wp-color-result::after {
+  display: none;
+}
+
+/**************************************************************
+ * Checkbox
+ *************************************************************/
+/* line 571, ../../scss/elements/_oldstyle.scss */
+.container > .cb-vegas-switch {
+  display: block;
+  margin: 12px auto;
+}
+
+/* line 576, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch {
+  position: relative;
+  top: 5px;
+  right: 2px;
+  display: inline-block;
+  vertical-align: top;
+  width: 56px;
+  height: 20px;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: inset 0 -1px #fff, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #eee, #fff 25px);
+  background-image: -moz-linear-gradient(top, #eee, #fff 25px);
+  background-image: -o-linear-gradient(top, #eee, #fff 25px);
+  background-image: linear-gradient(to bottom, #eee, #fff 25px);
+}
+
+/* line 595, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* line 602, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+  background: #eceeef;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+  -webkit-transition: .15s ease-out;
+  -moz-transition: .15s ease-out;
+  -o-transition: .15s ease-out;
+  transition: .15s ease-out;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 621, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-label:after, .cb-vegas-switch-label:before {
+  position: absolute;
+  top: 50%;
+  margin-top: -.5em;
+  line-height: 1;
+  -webkit-transition: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  transition: inherit;
+}
+
+/* line 632, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-label:before {
+  content: attr(data-off);
+  right: 11px;
+  color: #aaa;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 639, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-label:after {
+  content: attr(data-on);
+  left: 11px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+
+/* line 647, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-input:checked ~ .cb-vegas-switch-label {
+  background: #87d37c;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 653, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-input:checked ~ .cb-vegas-switch-label:before {
+  opacity: 0;
+}
+
+/* line 657, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-input:checked ~ .cb-vegas-switch-label:after {
+  opacity: 1;
+}
+
+/* line 661, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(top, #fff 40%, #f0f0f0);
+  background-image: -moz-linear-gradient(top, #fff 40%, #f0f0f0);
+  background-image: -o-linear-gradient(top, #fff 40%, #f0f0f0);
+  background-image: linear-gradient(to bottom, #fff 40%, #f0f0f0);
+  -webkit-transition: left .15s ease-out;
+  -moz-transition: left .15s ease-out;
+  -o-transition: left .15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+/* line 680, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-handle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+  background-image: -webkit-linear-gradient(top, #eee, #fff);
+  background-image: -moz-linear-gradient(top, #eee, #fff);
+  background-image: -o-linear-gradient(top, #eee, #fff);
+  background-image: linear-gradient(to bottom, #eee, #fff);
+}
+
+/* line 697, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-input:checked ~ .cb-vegas-switch-handle {
+  left: 40px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* line 702, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-switch-green > .cb-vegas-switch-input:checked ~ .cb-vegas-switch-label {
+  background: #4fb845;
+}
+
+/**************************************************************
+ * Meta Box
+ *************************************************************/
+/* line 709, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-meta-box {
+  display: block;
+  min-height: 96px;
+}
+
+/* line 714, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-meta-box-container {
+  display: inline-block;
+  clear: both;
+}
+
+/* Label container */
+/* line 720, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-meta-box .cb-vegas-label-container {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+
+/* Input container */
+/* line 727, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-meta-box .cb-vegas-input-container {
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+}
+
+/* Setting container */
+/* line 735, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-meta-box .cb-vegas-single-settings-container {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: auto;
+  clear: both;
+}
+
+/* line 743, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-settings-form #cb_vegas_options[slideshow_name] {
+  width: 160px !important;
+}
+
+/* line 747, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-meta-box-select,
+#cb-vegas-meta-box-checkbox {
+  min-height: 48px;
+  width: auto !important;
+  display: block;
+  float: left;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 757, ../../scss/elements/_oldstyle.scss */
+#poststuff .inside {
+  display: block;
+}
+
+/**************************************************************
+ * Navigation
+ *************************************************************/
+/* Form Buttons Wrap */
+/* line 765, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-form-buttons-container {
+  margin-top: 40px;
+  clear: both;
+}
+
+/* Add Slide Button Wrap */
+/* line 771, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-slide-button-container {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  float: left;
+}
+
+/* Add Slide Button */
+/* line 782, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-add-slide-button {
+  width: auto;
+}
+
+/* Submit Button Wrap */
+/* line 787, ../../scss/elements/_oldstyle.scss */
+p.submit {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 20px;
+  float: right;
+}
+
+/**************************************************************
+ * Add / remove tab buttons
+ *************************************************************/
+/* line 799, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-tab-container {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+}
+
+/**************************************************************
+ * Navigation
+ *************************************************************/
+/* line 808, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-menu-container {
+  display: block;
+  box-sizing: border-box;
+  min-height: 50px;
+  margin: 24px auto;
+}
+
+/* line 815, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-home-button-container,
+.cb-vegas-add-tab-container,
+.cb-vegas-navigation-tab,
+.cb-vegas-add-tab-button {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  min-width: 40px;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  background: #f1f5f6 none repeat scroll 0% 0%;
+  color: #555;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 9px 7px 0 10px;
+  text-decoration: none;
+  margin: 0;
+  transition: all 0.2s;
+  border: 1px solid #f1f5f6;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* line 843, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-tab-button .dashicons {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 849, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-tab-button .dashicons a {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 854, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-tab-button .dashicons:before {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+/* line 862, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-home-button-container,
+.cb-vegas-add-tab-container,
+.cb-vegas-navigation-tabs-container {
+  float: left;
+}
+
+/* line 868, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-navigation-tabs-container {
+  padding: 6px;
+}
+
+/* line 872, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-add-tab-container:hover,
+.cb-vegas-home-button-container:hover,
+.cb-vegas-navigation-tab:hover {
+  background: #fcfcfd;
+  transition: all 0.2s;
+}
+
+/* line 879, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-navigation-tab {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  min-width: 40px;
+  margin-left: 0;
+  clear: both;
+}
+
+/* line 889, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-nav-tab-link {
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+/* line 898, ../../scss/elements/_oldstyle.scss */
+.settings_page_cb_vegas_settings_page .nav-tab {
+  height: 40px;
+  z-index: 0;
+  width: auto;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  background: transparent;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* line 921, ../../scss/elements/_oldstyle.scss */
+.settings_page_cb_vegas_settings_page .nav-tab:hover {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* line 927, ../../scss/elements/_oldstyle.scss */
+.settings_page_cb_vegas_settings_page .nav-tab:active {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* line 933, ../../scss/elements/_oldstyle.scss */
+.settings_page_cb_vegas_settings_page .nav-tab:focus {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* line 939, ../../scss/elements/_oldstyle.scss */
+.settings_page_cb_vegas_settings_page .active-tab {
+  background: #fcfcfd;
+}
+
+/* line 943, ../../scss/elements/_oldstyle.scss */
+#cb_vegas_tab_title_text_box {
+  height: 40px;
+  border-radius: 4px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 360px;
+  padding: 6px 6px 20px 6px;
+  border: 1px solid #f1f5f6;
+  margin-left: 156px;
+  /*filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";*/
+  zoom: 1;
+}
+
+/* line 958, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-navigation-tab-active-tab {
+  background: #fcfcfd;
+  transition: all 0.2s;
+}
+
+/* line 963, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-tab-container {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+}
+
+/* line 970, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-remove-tab-container > a {
+  position: relative;
+  bottom: 6px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  background-color: #b4f845;
+}
+
+/* line 982, ../../scss/elements/_oldstyle.scss */
+#slideshow_name {
+  min-width: 160px;
+  min-height: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: 0 0 0 6px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07) inset;
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07) inset;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07) inset;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 1005, ../../scss/elements/_oldstyle.scss */
+#slideshow_name:hover, #slideshow_name:focus, #slideshow_name:active {
+  border-color: #f1f5f6;
+  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12) inset;
+  -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12) inset;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12) inset;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 1022, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide .cb-vegas-input-container input {
+  min-width: 116px;
+  min-height: 26px;
+  box-sizing: border-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: 0 0 0 3px;
+  margin-top: 4px;
+  border-radius: 2px;
+  /*-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07) inset;
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07) inset;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.07) inset;*/
+  text-transform: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 1040, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide .cb-vegas-input-container input:hover, .cb-vegas-single-slide .cb-vegas-input-container input:focus, .cb-vegas-single-slide .cb-vegas-input-container input:active {
+  border-color: #f1f5f6;
+  /*-webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12) inset;
+  -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12) inset;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12) inset;*/
+  text-transform: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/**************************************************************
+ * Slide Container
+ *************************************************************/
+/* line 1054, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-slides-container {
+  max-width: 960px;
+}
+
+/**************************************************************
+ * Single Slide Settings
+ *************************************************************/
+/* line 1061, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  max-height: 100%;
+  height: auto;
+  padding: 12px;
+  border: 0px solid #ddd;
+  border-radius: 3px;
+  margin: 6px 0 0 0 !important;
+  transition: all 0.2s ease-in-out;
+  clear: both;
+  background: white none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 1083, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide:hover {
+  border-color: #f1f5f6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  cursor: default;
+}
+
+/**************************************************************
+ * Settings Blocks
+ *************************************************************/
+/* line 1096, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-block-one-container {
+  box-sizing: border-box;
+  padding-right: 1.6%;
+  width: 32%;
+  height: auto;
+  float: left;
+  clear: both;
+}
+
+/* line 1105, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-block-two-container {
+  box-sizing: border-box;
+  width: 30%;
+  height: auto;
+  margin-left: 6px;
+  float: left;
+}
+
+/* line 1113, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-block-three-container {
+  box-sizing: border-box;
+  width: 30%;
+  height: auto;
+  margin-left: 6px;
+  float: left;
+}
+
+/* line 1121, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-block-four-container {
+  box-sizing: border-box;
+  width: 2%;
+  height: auto;
+  margin-left: 6px;
+  float: left;
+}
+
+/**************************************************************
+ * Media Thumbnail
+ *************************************************************/
+/* line 1132, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-media-container {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 188px;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+}
+
+/* line 1144, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-media-container img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 188px;
+  display: inline-block;
+  pointer-events: none;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  padding: 4px;
+  border: 1px solid #f1f1f1;
+  -moz-box-shadow: 0px 2px 4px #c9c9c9;
+  -webkit-box-shadow: 0px 2px 4px #c9c9c9;
+  box-shadow: 0px 2px 4px #c9c9c9;
+}
+
+/**************************************************************
+ * Input Field Container
+ *************************************************************/
+/**************************************************************
+ * Box Shadows
+ *************************************************************/
+/* line 1168, ../../scss/elements/_oldstyle.scss */
+.shadow1 .content {
+  position: relative;
+  /* This protects the inner element from being blurred */
+  background-color: #ddd;
+}
+
+/* line 1174, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-settings-container {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  min-height: 34px;
+  width: 100%;
+  clear: both;
+  padding: 0;
+  zoom: 1;
+  margin: 0;
+  background-color: #ececec;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 1188, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide .cb-vegas-input-container {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 34px;
+  width: 45%;
+  padding: 0px;
+  float: left;
+  margin: 0;
+  position: relative;
+  /* This protects the inner element from being blurred */
+}
+
+/* line 1200, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide .cb-vegas-input-container > input {
+  font-size: 11px;
+  width: 90px !important;
+  background-color: #fbfbfb;
+  box-shadow: inset 1px 1px 2px 0 #e7e7e7;
+  margin-top: 4px;
+}
+
+/* line 1208, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide .cb-vegas-input-container > input:focus {
+  background-color: white;
+  transition: all 0.2s;
+}
+
+/*.cb-vegas-single-slide .cb-vegas-input-container input {
+    font-size: 11px;
+    width: 82px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: inset 1px 1px 2px 0 rgb(231, 231, 231);
+}*/
+/*.cb-vegas-single-slide .cb-vegas-input-container input:focus {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s;
+}*/
+/* line 1223, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-single-slide .cb-vegas-label-container {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 34px;
+  width: 55%;
+}
+
+/* line 1230, ../../scss/elements/_oldstyle.scss */
+#cb-vegas-slides-container .label-for-cb-vegas-switch {
+  font-size: 11px;
+  box-sizing: border-box;
+  position: relative;
+  top: 7px;
+  height: 35px;
+  padding: 6px 6px 6px 6px;
+}
+
+/*input[type="text"] {
+	box-sizing: border-box;
+	height: 24px;
+	width: 76px;
+	border: 1px solid #e7e7e7;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07) inset;
+	background-color: #fbfbfb;
+	color: #32373c;
+	outline: 0px none;
+	transition: border-color 0.05s ease-in-out 0s;
+}*/
+/* line 1251, ../../scss/elements/_oldstyle.scss */
+input[type="text"]:focus {
+  background-color: #fbfbfb;
+  transition: all 0.2s;
+}
+
+/* line 1256, ../../scss/elements/_oldstyle.scss */
+.wp-admin select {
+  box-sizing: border-box;
+  padding-bottom: 6px;
+  line-height: 100%;
+}
+
+/* line 1262, ../../scss/elements/_oldstyle.scss */
+select, option {
+  box-sizing: border-box;
+  padding: 0 0 6px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+/**************************************************************
+ * Input Label Container
+ *************************************************************/
+/* line 1272, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-label-container {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 60%;
+  max-height: 100%;
+  height: 35px;
+  max-width: 100%;
+  font-size: 14px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  /* This protects the inner element from being blurred */
+}
+
+/**************************************************************
+ * Color Picker
+ *************************************************************/
+/* Color Picker Container */
+/* line 1291, ../../scss/elements/_oldstyle.scss */
+.cb-vegas-settings-block-one-container > div:nth-child(2) {
+  box-sizing: border-box;
+  display: block;
+  height: 32px;
+  width: 86.6%;
+  float: left;
+  clear: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Color Picker Label */
+/**************************************************************
+ * Meta Box
+ *************************************************************/
+/* line 4, ../../scss/partials/_metabox.scss */
+#cb-vegas-meta-box {
+  display: block;
+  min-height: 96px;
+}
+
+/* line 9, ../../scss/partials/_metabox.scss */
+#cb-vegas-meta-box-container {
+  display: inline-block;
+  clear: both;
+}
+
+/* Label container */
+/* line 15, ../../scss/partials/_metabox.scss */
+#cb-vegas-meta-box .cb-vegas-label-container {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+
+/* Input container */
+/* line 22, ../../scss/partials/_metabox.scss */
+#cb-vegas-meta-box .cb-vegas-input-container {
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+}
+
+/* Setting container */
+/* line 30, ../../scss/partials/_metabox.scss */
+#cb-vegas-meta-box .cb-vegas-single-settings-container {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: auto;
+  clear: both;
+}
+
+/* line 38, ../../scss/partials/_metabox.scss */
+#cb-vegas-settings-form #cb_vegas_options[slideshow_name] {
+  width: 160px !important;
+}
+
+/* line 42, ../../scss/partials/_metabox.scss */
+#cb-vegas-meta-box-select,
+#cb-vegas-meta-box-checkbox {
+  min-height: 48px;
+  width: auto !important;
+  display: block;
+  float: left;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 52, ../../scss/partials/_metabox.scss */
+#poststuff .inside {
+  display: block;
+}
+
+/* line 5, ../../scss/elements/_grid.scss */
+.cb-vegas-settings {
+  color: #23282d;
+  display: block;
+  width: 100%;
+  max-width: 930px;
+}
+
+/* line 12, ../../scss/elements/_grid.scss */
+#cb-vegas-submit {
+  width: 100%;
+  max-width: 930px;
+  text-align: right;
+}
+
+/* line 18, ../../scss/elements/_grid.scss */
+#cb-vegas-submit #submit {
+  margin-right: 16px;
+  margin-bottom: 60px;
+}
+
+/* Error notices */
+/* line 27, ../../scss/elements/_grid.scss */
+.cb-vegas-validation-error {
+  color: #5b9dd9;
+  text-decoration: underline;
+}
+
+/* line 32, ../../scss/elements/_grid.scss */
+.cb-vegas-validation-error:hover {
+  color: #69b9ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 38, ../../scss/elements/_grid.scss */
+.validation-error-focus:focus {
+  transition: all .12s ease-in-out;
+}
+
+/* line 42, ../../scss/elements/_grid.scss */
+.notice-error {
+  border-color: #e74c3c !important;
+}
+
+/* line 46, ../../scss/elements/_grid.scss */
+.notice-warning {
+  border-color: #e67e22 !important;
+}
+
+/* line 50, ../../scss/elements/_grid.scss */
+.notice-correction {
+  border-color: rgba(91, 157, 217, 0.98) !important;
+}
+
+/* line 55, ../../scss/elements/_grid.scss */
+.wp-core-ui .button {
+  text-align: center;
+}
+
+/* Placeholders */
+/* line 62, ../../scss/elements/_grid.scss */
+#cb-vegas_form ::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+}
+/* line 68, ../../scss/elements/_grid.scss */
+#cb-vegas_form ::-moz-placeholder {
+  font-style: italic;
+  opacity: 1;
+  font-weight: 300;
+}
+/* line 75, ../../scss/elements/_grid.scss */
+#cb-vegas_form :-ms-input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* Sortable placeholder */
+/* line 84, ../../scss/elements/_grid.scss */
+.highlight {
+  display: block;
+  border: 1px solid #fbfbfb;
+}
+
+/**************************************************************
+ * Wrap
+ *************************************************************/
+/* line 94, ../../scss/elements/_grid.scss */
+.settings_page_cb_vegas_settings_page .wrap {
+  box-sizing: border-box;
+  display: block;
+  min-width: 480px;
+  width: 100%;
+  max-width: 960px;
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+/* line 4, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-page-title {
+  background: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+/* line 10, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-page-title {
+  font-size: 16px;
+  width: 100%;
+  max-width: 930px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* line 22, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-heading {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 0 10px 16px;
+  /*padding: 26px 0 30px 12px;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 36, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-heading {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 0 10px 16px;
+  width: 100%;
+  max-width: 930px;
+}
+/* line 45, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-heading.post-type-section, .cb-vegas-settings-heading.plugin-section {
+  margin-top: 32px;
+}
+/* line 50, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-heading.title-section {
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 54, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-heading.title-section h2 {
+  padding: 10px 0 0 16px;
+  margin: 0;
+}
+
+/* line 61, ../../scss/elements/_heading.scss */
+.cb-vegas-settings-heading.cb-vegas-post-types-heading {
+  margin-top: 32px;
+}
+
+/* line 65, ../../scss/elements/_heading.scss */
+.cb-vegas-post-type-settings-heading {
+  margin-bottom: 32px;
+}
+
+/* line 7, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .nav-tab {
+  transition: all .2s ease-in-out;
+}
+/* line 10, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .nav-tab:hover {
+  transition: all .2s ease-in-out;
+}
+/* line 14, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .nav-tab i {
+  margin-right: 4px;
+}
+/* line 19, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-settings-heading.title-section {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  max-width: 930px;
+  background: #fff;
+  padding: 8px;
+  overflow: auto;
+}
+/* line 29, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation {
+  text-align: right;
+  float: right;
+}
+/* line 33, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation .nav-tab {
+  display: block;
+  text-align: right;
+  border: none;
+  background-color: #fff;
+  float: right;
+}
+/* line 40, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation .nav-tab:hover {
+  background-color: #fff;
+  box-shadow: none;
+  transition: .2s all;
+}
+/* line 46, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation .nav-tab:focus {
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+/* line 51, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation .nav-tab:active {
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+/* line 56, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation .nav-tab.active-tab {
+  background-color: #e7e7e7;
+  border: 1px solid #a0a5aa;
+  box-shadow: none;
+  transition: all .2s ease-in-out;
+}
+/* line 69, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-slideshow-navigation {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 930px;
+  min-height: 40px;
+  height: 100% !important;
+  padding: 0 8px 8px 8px;
+  max-height: 240px;
+  clear: both;
+  background: #fff;
+  overflow: auto;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 85, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-slideshow-navigation .nav-tab {
+  display: block;
+  margin-top: 8px;
+  margin-right: 6px;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  float: left;
+  min-height: 40px;
+  padding: 10px 6px 0 6px;
+}
+/* line 95, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-slideshow-navigation .nav-tab:hover {
+  background-color: #fff;
+  box-shadow: none;
+  transition: .2s all;
+  border: 1px solid #a0a5aa;
+}
+/* line 102, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-slideshow-navigation .nav-tab:focus {
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+/* line 107, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-slideshow-navigation .nav-tab:active {
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+/* line 112, ../../scss/elements/_navigation.scss */
+.settings_page_cb_vegas_settings_page .cb-vegas-slideshow-navigation .nav-tab.active-tab {
+  background-color: #e7e7e7;
+  border: 1px solid #a0a5aa;
+  box-shadow: none;
+  transition: all .2s ease-in-out;
+}
+
+/* line 128, ../../scss/elements/_navigation.scss */
+#controls {
+  margin-top: 32px;
+  display: block;
+  height: 60px;
+  clear: both;
+  padding-left: 24px;
+}
+/* line 135, ../../scss/elements/_navigation.scss */
+#controls > div {
+  display: inline-block;
+  margin-right: 24px;
+  float: left;
+  width: auto;
+}
+
+/**************************************************************
+ * Color Picker
+ *************************************************************/
+/* Color Picker Container */
+/* line 5, ../../scss/elements/_colorpicker.scss */
+.cb-vegas-settings-block-one-container > div:nth-child(2) {
+  box-sizing: border-box;
+  display: block;
+  height: 32px;
+  width: 86.6%;
+  float: left;
+  clear: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/*input[type="text"] {
+	display: block;
+	height: 24px;
+	color: $decent-font-color;
+	border: none;
+	border-bottom: 1px solid $border-color;
+	background-color: $white;
+	outline: none;
+	padding: 0px 6px;
+	margin-top: -2px;
+	margin-bottom: 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+	transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
+
+	&:hover,
+	&:focus,
+	&:active {
+		border-bottom: 1px solid $border-color;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
+	}
+
+	&.readonly {
+		background: $border-color;
+
+		&:hover,
+		&:focus,
+		&:active {
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.12) inset !important;
+			transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
+		}
+	}
+}*/
+/**************************************************************
+ * Input Label Container
+ *************************************************************/
+/* line 40, ../../scss/elements/_input.scss */
+#settings > .cb-vegas-slideshow-name-container > .cb-vegas-label-container {
+  max-width: 290px;
+  /* This protects the inner element from being blurred */
+}
+/* line 43, ../../scss/elements/_input.scss */
+#settings > .cb-vegas-slideshow-name-container > .cb-vegas-label-container > label {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 13px;
+  max-height: 100%;
+  height: 35px;
+  width: 100%;
+  float: left;
+  padding: 5px 0 0 0;
+  margin: 0;
+  position: relative;
+}
+/* line 60, ../../scss/elements/_input.scss */
+#settings > .cb-vegas-slideshow-name-container > .cb-vegas-label-container > input {
+  display: block !important;
+  min-width: 240px !important;
+}
+
+/* line 66, ../../scss/elements/_input.scss */
+#cb_vegas_options[slideshow_name] {
+  display: block;
+  min-width: 240px;
+}
+
+/*@import "to-top";
+@import "ajax";
+@import "tooltips";*/
+/************************************************
+ * Switch
+ ***********************************************/
+/*
+ * Copyright (c) 2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ * modified version
+ */
+/* line 15, ../../scss/elements/_checkbox.scss */
+.cbv-switch {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 56px;
+  height: 20px;
+  padding: 3px;
+  margin-top: 0px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: inset 0 -1px #fff, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #eee, #fff 25px);
+  background-image: -moz-linear-gradient(top, #eee, #fff 25px);
+  background-image: -o-linear-gradient(top, #eee, #fff 25px);
+  background-image: linear-gradient(to bottom, #eee, #fff 25px);
+}
+
+/* line 33, ../../scss/elements/_checkbox.scss */
+label.label-for-cbv-switch {
+  margin-top: 5px;
+  margin-left: -2px;
+}
+
+/* line 38, ../../scss/elements/_checkbox.scss */
+.cbv-switch-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* line 45, ../../scss/elements/_checkbox.scss */
+.cbv-switch-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  font-size: 9px;
+  text-transform: lowercase;
+  background: #eceeef;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+  -webkit-transition: .15s ease-out;
+  -moz-transition: .15s ease-out;
+  -o-transition: .15s ease-out;
+  transition: .15s ease-out;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 64, ../../scss/elements/_checkbox.scss */
+.cbv-switch-label:after, .cbv-switch-label:before {
+  position: absolute;
+  top: 50%;
+  margin-top: -.5em;
+  line-height: 1;
+  -webkit-transition: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  transition: inherit;
+}
+
+/* line 75, ../../scss/elements/_checkbox.scss */
+.cbv-switch-label:before {
+  content: attr(data-off);
+  right: 11px;
+  color: #aaa;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 82, ../../scss/elements/_checkbox.scss */
+.cbv-switch-label:after {
+  content: attr(data-on);
+  left: 11px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+
+/* line 90, ../../scss/elements/_checkbox.scss */
+.cbv-switch-input:checked ~ .cbv-switch-label {
+  background: #87d37c;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 95, ../../scss/elements/_checkbox.scss */
+.cbv-switch-input:checked ~ .cbv-switch-label:before {
+  opacity: 0;
+}
+
+/* line 99, ../../scss/elements/_checkbox.scss */
+.cbv-switch-input:checked ~ .cbv-switch-label:after {
+  opacity: 1;
+}
+
+/* line 103, ../../scss/elements/_checkbox.scss */
+.cbv-switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(top, #fff 40%, #f0f0f0);
+  background-image: -moz-linear-gradient(top, #fff 40%, #f0f0f0);
+  background-image: -o-linear-gradient(top, #fff 40%, #f0f0f0);
+  background-image: linear-gradient(to bottom, #fff 40%, #f0f0f0);
+  -webkit-transition: left .15s ease-out;
+  -moz-transition: left .15s ease-out;
+  -o-transition: left .15s ease-out;
+  transition: left .15s ease-out;
+}
+
+/* line 122, ../../scss/elements/_checkbox.scss */
+.cbv-switch-handle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+  background-image: -webkit-linear-gradient(top, #eee, #fff);
+  background-image: -moz-linear-gradient(top, #eee, #fff);
+  background-image: -o-linear-gradient(top, #eee, #fff);
+  background-image: linear-gradient(to bottom, #eee, #fff);
+}
+
+/* line 139, ../../scss/elements/_checkbox.scss */
+.cbv-switch-input:checked ~ .cbv-switch-handle {
+  left: 40px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* line 144, ../../scss/elements/_checkbox.scss */
+#cbv_form label {
+  pointer-events: none;
+}
+
+/* line 148, ../../scss/elements/_checkbox.scss */
+#cbv_form .cbv-switch {
+  pointer-events: initial;
+}
+
+/* line 152, ../../scss/elements/_checkbox.scss */
+.cbv-switch {
+  margin-left: 12px;
+  margin-top: 6px;
+}
+
+/* line 157, ../../scss/elements/_checkbox.scss */
+.cbv-delete_telated_posts-label.cbv-switch-input:checked ~ .cbv-switch-label {
+  background-color: #f89406 !important;
+}
+
+/**************************************************************
+ * Slide Container
+ *************************************************************/
+/* line 4, ../../scss/elements/_settings-blocks.scss */
+#cb-vegas-slides-container {
+  max-width: 960px;
+}
+
+/**************************************************************
+ * Single Slide Settings
+ *************************************************************/
+/* line 11, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  max-height: 100%;
+  height: auto;
+  padding: 12px;
+  border: 0px solid #ddd;
+  margin: 6px 0 0 0 !important;
+  clear: both;
+  background: #fff none;
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 29, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide:hover {
+  border-color: #f1f5f6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  cursor: default;
+}
+
+/* line 37, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide:hover {
+  border-color: #f1f5f6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+}
+
+/**************************************************************
+ * Settings Blocks
+ *************************************************************/
+/* line 48, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-settings-block-one-container {
+  box-sizing: border-box;
+  padding-right: 1.6%;
+  width: 32%;
+  height: auto;
+  float: left;
+  clear: both;
+}
+
+/* line 57, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-settings-block-two-container {
+  box-sizing: border-box;
+  width: 30%;
+  height: auto;
+  margin-left: 6px;
+  float: left;
+}
+
+/* line 65, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-settings-block-three-container {
+  box-sizing: border-box;
+  width: 30%;
+  height: auto;
+  margin-left: 6px;
+  float: left;
+}
+
+/* line 73, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-settings-block-four-container {
+  box-sizing: border-box;
+  width: 2%;
+  height: auto;
+  margin-left: 6px;
+  float: left;
+}
+
+/**************************************************************
+ * Media Thumbnail
+ *************************************************************/
+/* line 86, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-media-container {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 188px;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+}
+
+/* line 98, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-media-container img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 188px;
+  display: inline-block;
+  pointer-events: none;
+  margin: 0 auto;
+  background: transparent;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  padding: 4px;
+  border: 1px solid #f1f1f1;
+  -moz-box-shadow: 0px 2px 4px #c9c9c9;
+  -webkit-box-shadow: 0px 2px 4px #c9c9c9;
+  box-shadow: 0px 2px 4px #c9c9c9;
+}
+
+/**************************************************************
+ * Input Field Container
+ *************************************************************/
+/**************************************************************
+ * Box Shadows
+ *************************************************************/
+/* line 122, ../../scss/elements/_settings-blocks.scss */
+.shadow1 .content {
+  position: relative;
+  /* This protects the inner element from being blurred */
+  background-color: #ddd;
+}
+
+/* line 128, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-settings-container {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  min-height: 34px;
+  width: 100%;
+  clear: both;
+  padding: 0;
+  zoom: 1;
+  margin: 0;
+  background-color: #fdfdfd;
+  -moz-box-shadow: 0px 0px 2px #fafafa inset;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 143, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide .cb-vegas-input-container {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 34px;
+  width: 45%;
+  padding: 0px;
+  float: left;
+  margin: 0;
+  position: relative;
+  /* This protects the inner element from being blurred */
+}
+
+/* line 155, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide .cb-vegas-input-container > input {
+  font-size: 11px;
+  width: 90px !important;
+  background-color: #fbfbfb;
+  box-shadow: inset 1px 1px 2px 0 #e7e7e7;
+  margin-top: 4px;
+}
+
+/* line 163, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide .cb-vegas-input-container > input:focus {
+  background-color: white;
+  transition: all 0.2s;
+}
+
+/*.cb-vegas-single-slide .cb-vegas-input-container input {
+    font-size: 11px;
+    width: 82px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: inset 1px 1px 2px 0 rgb(231, 231, 231);
+}*/
+/*.cb-vegas-single-slide .cb-vegas-input-container input:focus {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s;
+}*/
+/* line 178, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-single-slide .cb-vegas-label-container {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 34px;
+  width: 55%;
+}
+
+/* line 185, ../../scss/elements/_settings-blocks.scss */
+#cb-vegas-slides-container .label-for-cb-vegas-switch {
+  font-size: 11px;
+  box-sizing: border-box;
+  position: relative;
+  top: 7px;
+  height: 35px;
+  padding: 6px 6px 6px 6px;
+}
+
+/* line 194, ../../scss/elements/_settings-blocks.scss */
+.settings_page_cb_vegas_settings_page input[type="text"],
+#cb-vegas-meta-box input[type="text"] {
+  box-sizing: border-box;
+  height: 24px;
+  width: 76px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07) inset;
+  background-color: #fbfbfb;
+  color: #32373c;
+  outline: 0px none;
+  transition: border-color 0.05s ease-in-out 0s;
+}
+
+/* line 207, ../../scss/elements/_settings-blocks.scss */
+.settings_page_cb_vegas_settings_page input[type="text"]:focus,
+#cb-vegas-meta-box input[type="text"] :focus {
+  background-color: #fbfbfb;
+  transition: all 0.2s;
+}
+
+/* line 213, ../../scss/elements/_settings-blocks.scss */
+.wp-admin select {
+  box-sizing: border-box;
+  padding-bottom: 6px;
+  line-height: 100%;
+}
+
+/* line 219, ../../scss/elements/_settings-blocks.scss */
+select, option {
+  box-sizing: border-box;
+  padding: 0 0 6px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+/**************************************************************
+ * Input Label Container
+ *************************************************************/
+/* line 229, ../../scss/elements/_settings-blocks.scss */
+.cb-vegas-label-container {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 60%;
+  max-height: 100%;
+  height: 35px;
+  max-width: 100%;
+  font-size: 14px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  /* This protects the inner element from being blurred */
+}
+
+/* Input types */
+/* line 245, ../../scss/elements/_settings-blocks.scss */
+.settings_page_cb_vegas_settings_page input[type="text"]
+#cb_vegas-meta-box input[type="text"] {
+  width: 82px;
+  height: 24px;
+  padding: 0 0 2px 4px;
+  margin: 0;
+}
+
+/* line 1, ../../scss/elements/_buttons.scss */
+.cb-vegas-home-button-container,
+.cb-vegas-add-tab-container,
+.cb-vegas-navigation-tab,
+.settings_page_cb_vegas_settings_page .cb-vegas-plugin-navigation .nav-tab.add-new {
+  box-sizing: border-box;
+  height: 40px;
+  width: auto;
+  min-width: 40px;
+  /*background-attachment: scroll;
+  background-clip: border-box;*/
+  background-color: white;
+  /*background-image: none;
+  background-origin: padding-box;
+  background-position: 0% 0%;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-color: rgb(85, 85, 85);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: rgb(85, 85, 85);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(85, 85, 85);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(85, 85, 85);
+  border-top-style: none;
+  border-top-width: 0px;*/
+  color: #555555;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: 7px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+
+/* line 53, ../../scss/elements/_buttons.scss */
+.cb-vegas-settings-toggle {
+  position: relative;
+  right: 14px !important;
+  bottom: 4px;
+  font-size: 20px;
+  float: right;
+}
+
+/* line 61, ../../scss/elements/_buttons.scss */
+.cb-vegas-settings-toggle:before {
+  position: relative;
+  top: 6px;
+}
+
+/* line 66, ../../scss/elements/_buttons.scss */
+.cb-vegas-settings-toggle:hover {
+  color: #747474;
+  background-color: #e4f1fe;
+}
+
+/* line 72, ../../scss/elements/_buttons.scss */
+#controls .cb-vegas-submit-button-container {
+  display: inline-block;
+  right: 0;
+  float: right;
+}
+
+/* line 1, ../../scss/elements/_form.scss */
+#cb-vegas-settings-form {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 32px;
+}
